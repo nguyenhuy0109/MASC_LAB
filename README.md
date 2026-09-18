@@ -6,10 +6,13 @@ This is a library of MASC (Multi Agent System Control) Laboratory that contain s
 Every new feature MUST be developed on its own branch:
 
 git checkout main
+
 git pull origin main
-git checkout -b feature/<feature-name>
+
+git checkout -b feature/feature-name
+
 # ... code ...
-git push -u origin feature/<feature-name>
+git push -u origin feature/feature-name
 
 Then open a Pull Request targeting 'main'
 
